@@ -1,6 +1,6 @@
 Name:           v4l-utils
 Version:        0.9.5
-Release:        2%{?dist}
+Release:        4%{?dist}
 Summary:        Utilities for video4linux and DVB devices
 Group:          Applications/System
 # ir-keytable and v4l2-sysfs-path are GPLv2 only
@@ -167,6 +167,12 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.9.5-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.9.5-3
+- Mass rebuild 2013-12-27
+
 * Fri Jun 14 2013 Hans de Goede <hdegoede@redhat.com> - 0.9.5-2
 - Add a few libv4l2rds patches from upstream, which bring libv4l2rds to its
   final API / ABI, so that apps build against it won't need a rebuild in the
